@@ -13,36 +13,37 @@
       <hr>
 
     <main class = "introducción">
-      <p><strong>CRIPTAPP</strong> es una aplicación que te permitirá convertir un texto a confidencial, reemplazando cada letra original del mensaje por una distinta.</p>
+      <p>Bienvenido a <strong>CRIPTAPP</strong>, una aplicación que te permitirá convertir un texto a mensaje confidencial, reemplazando cada letra por una distinta.</p>
       </main>
-
-      <img src="">
       
     <aside class = "instrucciónCifrar">
-      <p><strong>¿CÓMO TRANSFORMAR TU TEXTO?</strong></br>Ingresa el texto que quieres que quieres cifrar en la caja <strong>Ingresar Texto</strong>.</br>
-        Escribir sólo en <strong>MAYÚSCULA, no utilizar letra Ñ, números, ni caracteres especiales</strong>.</br>
-        Ingresa un número en la caja <strong>Ingresar Desplazamiento</strong>, que corresponderá a la posición que te desees desplazar.</br>
-        Pincha el botón <strong>Cifrar</strong> y aparecerá tu texto transformado en cifrado César en la caja de <strong>Resultado</strong>.</p>
+      <p><strong>¿CÓMO TRANSFORMAR TU TEXTO?</strong><br>Ingresa el texto que quieres transformar en la caja <strong>Ingresar Texto</strong>.<br>
+        Escribe sólo en <strong>MAYÚSCULA, no utilices letra Ñ, números, ni caracteres especiales</strong>.<br>
+        Ingresa un número en la caja <strong>Ingresar Desplazamiento</strong>, que corresponderá a la posición que te desees desplazar para reemplazar las letras.<br>
+        Pincha el botón <strong>Cifrar</strong> y aparecerá tu texto confidencial en la caja de <strong>Resultado</strong>.</p>
     </aside>
 
     <aside class = "instrucciónDescifrar">
-        <p><strong>¿CÓMO LEER EL MENSAJE?</strong></br>Ingresa el texto que quieres descifrar en la caja <strong>Ingresar Texto</strong>.</br>
+        <p><strong>¿CÓMO LEER EL MENSAJE?</strong><br>Ingresa el texto que quieres descifrar en la caja <strong>Ingresar Texto</strong>.<br>
+        Ingresa el <strong>número de desplazamiento</strong> que ocupó la persona que transformó el mensaje, este se debe escribir en la caja <strong>Ingresar Desplazamiento</strong>.<br>
         Pincha el botón <strong>Descifrar</strong> y aparecerá tu texto descifrado en la caja de <strong>Resultado</strong>.</p>
       </aside>
 
-      
+      <div id="formulario1">
         <form>
-          <input type = "text" id = "texto" placeholder="Ingresar texto" name = "ingresar_texto" required><br>
+          <input type = "text" id = "texto" placeholder="Ingresar Texto" name = "ingresar_texto" required><br>
           <input type = "text" id = "desplazamiento" placeholder="Ingresar Desplazamiento">
         </form>
       
   
       
       <button class = "botones" id="cifrar">Cifrar</button>
-      <button class = "botones" id="descifrar">Descifrar</button><br>
-      
+      <button class = "botones" id="descifrar">Descifrar</button>
+      </div>
       
     <div id="root"></div>
+
+
 
     <script src="cipher.js"></script>
     <script src="index.js"></script>
