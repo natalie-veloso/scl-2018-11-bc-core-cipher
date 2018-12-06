@@ -1,15 +1,16 @@
 window.cipher = {
   encode: (text, offset) => {
     let resultadoCifrado = "";
-        for (let i = 0; i <= text.length; i++){ 
+       for (let i = 0; i <= text.length; i++){
           let textoEntregado = text.toUpperCase();
           let ascii = textoEntregado.charCodeAt(i)
-          let formula = ((ascii - 65 + parseInt(offset)) % 26) + 65;
+          let formula = (ascii - 65 + offset) % 26 + 65;
           let nuevoAscii = String.fromCharCode(formula);
           resultadoCifrado += nuevoAscii;
 
     }
     return resultadoCifrado;
+
 },
 
   decode: (textB, offsetB) => {
@@ -17,7 +18,7 @@ window.cipher = {
         for (let i = 0; i <= textB.length; i++){
           let textoEntregadoB = textB.toUpperCase();
           let asciiB = textoEntregadoB.charCodeAt(i)
-          let formulaB = ((asciiB - 90 - parseInt(offsetB)) % 26) + 90;
+          let formulaB = ((asciiB - 90 - offsetB) % 26) + 90;
           let nuevoAsciiB = String.fromCharCode(formulaB);
           resultadoDescifrado += nuevoAsciiB;
 

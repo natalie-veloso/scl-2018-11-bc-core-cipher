@@ -1,15 +1,23 @@
-function cifrar() {
-    let text = document.getElementById("texto").value;
-    let offset = document.getElementById("desplazamiento").value;
-    let resultadoCifrado = cipher.encode(text, offset);
-    document.getElementById("textoCifrado").innerHTML = resultadoCifrado;
+window.onload=() => {
 
-}
+    const cifrado =  document.getElementById("root")
+    document.getElementById("cifrar").addEventListener("click", (evento)=>{
+       evento.preventDefault();
+       let text = document.getElementById("texto").value.toUpperCase();
+       let offset = parseInt(document.getElementById("desplazamiento").value);
 
-function descifrar() {
-    let text2 = document.getElementById("texto").value;
-    let offset2 = document.getElementById("desplazamiento").value;
-    let resultadoDescifrado = cipher.decode(text2, offset2);
-    document.getElementById("textoDescifrado").innerHTML = resultadoDescifrado;
+    cifrado.innerHTML= cipher.encode(text,offset)
+   
+   });
+    
+   const descifrar =  document.getElementById("root")
+   document.getElementById("descifrar").addEventListener("click", (evento)=>{
+      evento.preventDefault();
+      let text = document.getElementById("texto").value;
+      let offset = parseInt(document.getElementById("desplazamiento").value);
 
-}
+      descifrar.innerHTML= cipher.decode(text,offset)
+  
+  });
+
+} 
