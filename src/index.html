@@ -2,27 +2,48 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Criptapp</title>
+    <title>CRIPTAPP</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet"> 
   </head>
   <body>
-      <h1>Criptapp</h1>
+      <h1>CRIPTAPP</h1>
 
-      <p></p>
-  
-      <form>
-          <input type = "text" id = "texto" placeholder="Ingresar texto" name = "ingresar_texto" required></br>
-          <input type = "number" id = "desplazamiento" placeholder="Ingresar Desplazamiento"></input></br>
-      </form>
-  
-      <button type = "submit" onclick="cifrar()">Cifrar</button>
-      <button type = "submit" onclick="descifrar()">Descifrar</button>
+      <hr>
+
+    <main class = "introducción">
+      <p><strong>CRIPTAPP</strong> es una aplicación que te permitirá convertir un texto a confidencial, reemplazando cada letra original del mensaje por una distinta.</p>
+      </main>
+
+      <img src="">
       
-      <p id = "textoCifrado"></p>
-      <p id = "textoDescifrado"></p>
+    <aside class = "instrucciónCifrar">
+      <p><strong>¿CÓMO TRANSFORMAR TU TEXTO?</strong></br>Ingresa el texto que quieres que quieres cifrar en la caja <strong>Ingresar Texto</strong>.</br>
+        Escribir sólo en <strong>MAYÚSCULA, no utilizar letra Ñ, números, ni caracteres especiales</strong>.</br>
+        Ingresa un número en la caja <strong>Ingresar Desplazamiento</strong>, que corresponderá a la posición que te desees desplazar.</br>
+        Pincha el botón <strong>Cifrar</strong> y aparecerá tu texto transformado en cifrado César en la caja de <strong>Resultado</strong>.</p>
+    </aside>
 
+    <aside class = "instrucciónDescifrar">
+        <p><strong>¿CÓMO LEER EL MENSAJE?</strong></br>Ingresa el texto que quieres descifrar en la caja <strong>Ingresar Texto</strong>.</br>
+        Pincha el botón <strong>Descifrar</strong> y aparecerá tu texto descifrado en la caja de <strong>Resultado</strong>.</p>
+      </aside>
+
+      
+        <form>
+          <input type = "text" id = "texto" placeholder="Ingresar texto" name = "ingresar_texto" required><br>
+          <input type = "text" id = "desplazamiento" placeholder="Ingresar Desplazamiento">
+        </form>
+      
+  
+      
+      <button class = "botones" id="cifrar">Cifrar</button>
+      <button class = "botones" id="descifrar">Descifrar</button><br>
+      
+      
     <div id="root"></div>
-    
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>

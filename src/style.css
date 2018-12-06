@@ -1,1 +1,60 @@
-/* Acá va tu código */
+h1{
+    background-color: white;
+    font-family: 'Bungee', cursive;
+    color: #364e68;
+    text-align: justify;
+    font-size: 30px;
+    padding: 10px;
+    margin: 0;
+}
+
+body{
+    font-family: 'Archivo', sans-serif;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.introducción{
+    color: #474a52;
+    line-height: 23px;
+    padding: 2%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.instrucciónCifrar{
+    background-color: #9fe8fa;
+    color: #474a52;
+    width: 35%;
+    display: inline-block;
+    line-height: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.instrucciónDescifrar{
+    background-color: #9fe8fa;
+    color: #474a52;
+    width: 35%;
+    display: inline-block;
+    line-height: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;    
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.botones{
+    background-color: #98ccd3;
+    height:48px;
+    width:80px;
+    border-radius:10px;
+    border: 1px solid #98ccd3;
+}
