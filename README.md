@@ -1,11 +1,11 @@
 # CRIPTAPP
-## Aplicación Web
 
-**CRIPTAPP** es una aplicación que permite convertir un texto a mensaje confidencial, reemplazando cada letra por una distinta. Esta aplicación se desarrolla a partir de la necesidad que surge en reuniones de directorio, ya sea de bancos u otras instituciones, para mantener sus apuntes en secreto y así conservar la seguridad de la información que se mencione en cada uno de estos eventos.
+**CRIPTAPP** es una aplicación web que permite convertir un texto a mensaje confidencial, reemplazando cada letra por una distinta. Esta aplicación se desarrolla a partir de la necesidad que surge en reuniones de directorio, ya sea de bancos u otras instituciones, para mantener sus apuntes en secreto y así conservar la seguridad de la información que se mencione en cada uno de estos eventos.
 
-## ¿Cómo obtener Criptapp?
+## ¿Dónde encontrar Criptapp?
+La aplicación se encuentra disponible en la web, sólo debes abrir el navegador de tu computador o dispositivo móvil e ingresar a la página a través del siguiente link:
 
-Ingresa a **Play Store** de tu Smartphone y busca nuestra aplicación **CRIPTAPP**, luego de cancelar la podrás instalar y hacer uso de ella cada vez que lo necesites. Una vez instalada, ábrela y sigue las instrucciones sobre cómo podrás transformar tu texto a mensaje secreto y también cómo leerlos.
+
 
 #### ¿Cómo transformar un texto?
 
@@ -25,15 +25,26 @@ Ingresa a **Play Store** de tu Smartphone y busca nuestra aplicación **CRIPTAPP
 
 ## Funcionalidad
 
-Esta aplicación se basa en un método llamado **Cifrado César**, el cual permite (mediante una fórmula) convertir un texto a mensaje secreto, indicando un número y así reemplazar cada letra por una distinta, según la posición que ocupe esa letra dentro del abecedario.
+Esta aplicación se basa en un método llamado **Cifrado César**, el cual permite (mediante una fórmula) convertir un texto a mensaje secreto, indicando un número y así reemplazar cada letra por una distinta, según la posición que ocupe esa letra dentro del abecedario. Para su desarrollo se utilizó lenguaje JavaScript (ES6), HTML5 y CSS.
 
 #### Ejemplo
 Ingresamos un texto con las letras _"ABC"_, indico número 3 (cuántas posiciones quiero que se mueva) y reemplazará estas letras por _"CDE"_ (posición 3,4,5 del abecedario).
 
-## Desiciones de Diseño
+## Decisiones de Diseño
+
+### Planificación
+Para comenzar un proyecto se requiere organización de las tareas a realizar, puedes visitar el siguiente link para observar la planificación:
+
+https://trello.com/b/I4QBkpni/proyecto-1
 
 ### Marca
 El nombre de esta aplicación es una fusión entre las palabras **criptograma** _(documento escrito en clave | Pasatiempo que consiste en descifrar un texto cifrado averiguando su clave)_ y **aplicación**.
+
+### Diagrama de Flujo
+Describe el proceso que seguirá la aplicación.
+
+![pantalla](imagenes/diagrama-flujo.jpeg)
+
 
 ### Pantallas
 Se define sólo una pantalla para visualizar la aplicación, ya que de esta forma el usuario podrá acceder rápidamente a las instrucciones en caso de que las haya olvidado.
@@ -56,5 +67,12 @@ Dentro de ella se considera:
 
 - Caja para ver texto cifrado o descifrado.
 
+![pantalla](imagenes/pantalla-criptapp.jpeg)
+
 ## Colores
 Los colores utilizados son en tonos azules, ya que se caracterizan por transmitir seguridad y confianza.
+
+![colores](imagenes/colores-criptapp.jpeg)
+
+## Actualización
+Pronto podrás ver las mejoras y actualizaciones realizadas en la aplicación.
