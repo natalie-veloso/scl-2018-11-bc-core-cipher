@@ -1,4 +1,4 @@
-h1{
+h1 {
     background-color: #ebf0f6;
     font-family: 'Bungee', cursive;
     color: #364e68;
@@ -8,15 +8,15 @@ h1{
     margin: 0;
 }
 
-body{
+body {
     background-color: #ebf0f6;
     font-family: 'Archivo', sans-serif;
     text-align: justify;
     font-size: 15px;
-    width: 100%;    
+    width: 100%;
 }
 
-.introducción{
+#introduction {
     color: #364e68;
     line-height: 40px;
     padding: 4%;
@@ -26,7 +26,7 @@ body{
     text-align: center;
 }
 
-.instrucciónCifrar{
+#instructionEncrypt {
     background-color: #9fe8fa;
     color: #364e68;
     width: 50%;
@@ -36,7 +36,7 @@ body{
     margin: auto;
 }
 
-.instrucciónDescifrar{
+#instructionDecipher {
     background-color: #364e68;
     color: #9fe8fa;
     width: 50%;
@@ -46,7 +46,7 @@ body{
     margin: auto;
 }
 
-h2{
+h2 {
     color: #364e68;
     text-align: center;
     background-color: #9fe8fa;
@@ -57,7 +57,7 @@ h2{
     padding-top: 25px;
 }
 
-#formulario1{
+#textBox {
     width: 450px;
     margin: auto;
     padding: 10px 20px;
@@ -67,18 +67,18 @@ h2{
     text-align: center;
 }
 
-.botones{
+.buttons {
     background-color: #9fe8fa;
-    height:45px;
-    width:80px;
-    border-radius:10px;
+    height: 45px;
+    width: 80px;
+    border-radius: 10px;
     border: 1px solid #9fe8fa;
     text-align: center;
     margin: 20px;
     margin-top: 25px;
 }
 
-#root{
+#root {
     background-color: white;
     border: 3px solid #9fe8fa;
     padding: 40px;
@@ -89,4 +89,3 @@ h2{
     margin: 0 auto;
     margin-bottom: 60px;
 }
-
